@@ -4,10 +4,10 @@ export const SET_ACTIVE_HARBOUR = "SET_ACTIVE_HARBOUR";
 export const CLEAR_ACTIVE_HARBOUR = "CLEAR_ACTIVE_HARBOUR";
 
 //action creators go in here
-export function setActiveHarbour(harbourId) {
+export function setActiveHarbour(harbour) {
   return {
     type: SET_ACTIVE_HARBOUR,
-    harbourId: harbourId,
+    harbour,
   };
 }
 
@@ -30,7 +30,7 @@ export const harboursReducer = (state = initialState, action) => {
 export const activeHarbourReducer = (state = null, action) => {
   switch (action.type) {
     case SET_ACTIVE_HARBOUR:
-      return action.harbourId;
+      return action.harbour;
     case CLEAR_ACTIVE_HARBOUR:
       return null;
     default:

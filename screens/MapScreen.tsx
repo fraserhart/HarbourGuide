@@ -9,19 +9,17 @@ import { setActiveHarbour } from "../src/redux/harbours";
 export default function MapScreen() {
   const { harbours, activeHarbour } = useSelector((state) => state);
   const dispatch = useDispatch();
-  alert(activeHarbour);
+
   return (
     <View style={styles.container}>
       <MapView style={styles.mapStyle} showsUserLocation={true}>
         {harbours.map((harbour) => (
           <Marker
             coordinate={{ latitude: harbour.lat, longitude: harbour.lng }}
-            title={harbour.name}
-            description={harbour.description}
             key={harbour.id}
-            pinColor="green"
+            pinColor={activeHarbour.id === harbour.id ? "green" : "red"}
             onPress={() => {
-              dispatch(setActiveHarbour(harbour.id));
+              dispatch(setActiveHarbour(harbour));
             }}
           />
         ))}
