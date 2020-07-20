@@ -3,10 +3,13 @@ import { StyleSheet, Dimensions } from "react-native";
 
 import { Text, View } from "../components/Themed";
 import MapView, { Marker } from "react-native-maps";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { setActiveHarbour } from "../src/redux/harbours";
 
-export default function TabTwoScreen() {
-  const { harbours } = useSelector((state) => state);
+export default function MapScreen() {
+  const { harbours, activeHarbour } = useSelector((state) => state);
+  const dispatch = useDispatch();
+  alert(activeHarbour);
   return (
     <View style={styles.container}>
       <MapView style={styles.mapStyle} showsUserLocation={true}>
@@ -16,6 +19,10 @@ export default function TabTwoScreen() {
             title={harbour.name}
             description={harbour.description}
             key={harbour.id}
+            pinColor="green"
+            onPress={() => {
+              dispatch(setActiveHarbour(harbour.id));
+            }}
           />
         ))}
       </MapView>
