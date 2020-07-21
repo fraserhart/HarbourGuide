@@ -8,6 +8,8 @@ import { setActiveHarbour } from "../src/redux/harbours";
 
 import SlidingUpPanel from "rn-sliding-up-panel";
 
+import HarbourDetail from "./HarbourDetail";
+
 export default function MapScreen() {
   const { harbours, activeHarbour } = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -33,16 +35,7 @@ export default function MapScreen() {
         ref={(c) => (_panel = c)}
         onBottomReached={() => dispatch(setActiveHarbour(null))}
       >
-        <View style={styles.container}>
-          <Text>{activeHarbour?.name}</Text>
-          <Button
-            title="Hide"
-            onPress={() => {
-              _panel.hide();
-              dispatch(setActiveHarbour(null));
-            }}
-          />
-        </View>
+        <HarbourDetail />
       </SlidingUpPanel>
     </View>
   );

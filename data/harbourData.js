@@ -151,7 +151,7 @@ export default [
     power: 1,
     atm: 1,
     description:
-      "A natural harbour that has been turned into a large marina with extensive facilities. It is a popular place to hire yachts from. There is shore power, water and modern shower blocks. As well as many cafes, bars and restaurants.<br><br>When you leave the Marina on the 1st day you must stick to the channel inside the marks on the way out to avoid the shallow patches. The channel is clearly marked with two sets of port and starboard markers. Keep green to port, red to starboard on the way out! Before you return on the last day, there is good anchorage in Kontokoli Bay to anchor in just to the north of the harbour entrance. This is a great place to pack your bags and have that last swim, maximising your time on the water and keeping your refreshed before you fly.",
+      "A natural harbour that has been turned into a large marina with extensive facilities. It is a popular place to hire yachts from. There is shore power, water and modern shower blocks. As well as many cafes, bars and restaurants.\n\nWhen you leave the Marina on the 1st day you must stick to the channel inside the marks on the way out to avoid the shallow patches. The channel is clearly marked with two sets of port and starboard markers. Keep green to port, red to starboard on the way out! Before you return on the last day, there is good anchorage in Kontokoli Bay to anchor in just to the north of the harbour entrance. This is a great place to pack your bags and have that last swim, maximising your time on the water and keeping your refreshed before you fly.",
   },
   {
     id: 12,
