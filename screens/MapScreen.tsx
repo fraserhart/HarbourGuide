@@ -17,7 +17,7 @@ export default function MapScreen() {
           <Marker
             coordinate={{ latitude: harbour.lat, longitude: harbour.lng }}
             key={harbour.id}
-            pinColor={activeHarbour.id === harbour.id ? "green" : "red"}
+            pinColor={activeHarbour?.id === harbour.id ? "green" : "red"}
             onPress={() => {
               dispatch(setActiveHarbour(harbour));
             }}
