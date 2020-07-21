@@ -1,15 +1,20 @@
-import * as React from "react";
-import { StyleSheet, Dimensions } from "react-native";
+import React, { useEffect } from "react";
+import { StyleSheet, Dimensions, Button } from "react-native";
 
 import { Text, View } from "../components/Themed";
 import MapView, { Marker } from "react-native-maps";
 import { useSelector, useDispatch } from "react-redux";
 import { setActiveHarbour } from "../src/redux/harbours";
 
+import SlidingUpPanel from "rn-sliding-up-panel";
+
 export default function MapScreen() {
   const { harbours, activeHarbour } = useSelector((state) => state);
   const dispatch = useDispatch();
-
+  let _panel;
+  useEffect(() => {
+    activeHarbour && _panel.show({ toValue: 250, velocity: 0 });
+  }, [activeHarbour]);
   return (
     <View style={styles.container}>
       <MapView style={styles.mapStyle} showsUserLocation={true}>
@@ -24,6 +29,21 @@ export default function MapScreen() {
           />
         ))}
       </MapView>
+      <SlidingUpPanel
+        ref={(c) => (_panel = c)}
+        onBottomReached={() => dispatch(setActiveHarbour(null))}
+      >
+        <View style={styles.container}>
+          <Text>{activeHarbour?.name}</Text>
+          <Button
+            title="Hide"
+            onPress={() => {
+              _panel.hide();
+              dispatch(setActiveHarbour(null));
+            }}
+          />
+        </View>
+      </SlidingUpPanel>
     </View>
   );
 }
