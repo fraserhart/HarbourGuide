@@ -16,11 +16,11 @@ export default function BottomTabNavigator() {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="Map"
+      initialRouteName="MapTab"
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}
     >
       <BottomTab.Screen
-        name="Map"
+        name="MapTab"
         component={MapTabNavigator}
         options={{
           tabBarIcon: ({ color }) => (

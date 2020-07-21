@@ -13,7 +13,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
     description:
       "Kassiopi is  probably the most Northern harbour recommended for yachts to stay in. It is one of the most picturesque villages on Corfu with breath taking views and great choice of fantastic tavernas around the water front. It can be hard to  spot from a distance, but as you get closer you will see the villas/houses on the hills. Inside the harbour you can moor bows-to on the East side and the North side. It is possible to go stern-to however only in some spots as there are large rocks which take no prisoners when it comes to rudders. The bottom is weed so is generally poor holding, therefore you need a lot of anchor chain out.  However be aware of other anchors that may be out, especially the day trip boats. In some spots you may find a lazy line which you can use as a backup for your anchor. There are some great places to eat and drink here, many just a stoneâ€™s throw from your boat. There is also a supermarket just back from the quay, where you can get supplies. The old Venetian Castle is free to explore. A nice little walk around the headland to the West takes you to some great little beaches and views. Kassiopi can be busy in the height of summer with flotillas and cruisers, therefore you should always have a backup plan, e.g to head back round to Ag. Stefanos or a nearby bay like Ormos Arrillas or our new mooring buoy. It can also be uncomfortable in a strong wind from the North as the swell does bounce you around in the harbour. But if conditions are good, it is a brilliant and beautiful spot to explore, definitely worth a look!",
     image: "http://www.corfu-pictures.com/kassiopi/a1/kassiopi-5x.jpg",
@@ -32,7 +31,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
     description:
       "Just to the West of Kassiopi is Imerolia Bay. Here there is a beautiful bay with a nice beach and clear waters. You can anchor on the East side of the bay by the beach, if you tuck in behind the headland it is comfortable in average conditions. It is not great in and strong winds from the North or West. If conditions are fair then you can dinghy ashore to the beach, where the centre of town is only a short walk around the coastal path/road or along the road.",
   },
@@ -50,7 +48,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
     description:
       "As you may have guessed this is one of our favourite spots. It is definitely one of the nicest secluded bays in the North Ionian. Even in mid summer it is not generally too busy. The best way to anchor in here is using a long line ashore. The easiest way is to drop someone off in the dinghy who can go in and tie a bowline around one of the big trees on the left side of the bay, for the other longline you can tie onto the small metal framed quay in the centre of the bay. Then simply reverse from the centre of the bay dropping the anchor in around 10m at 4 boat lengths from the shore. When you are around a boat length off the shore in around 3-5m of water you can tie off the long lines and tighten your anchor. You can the relax and swim in some of the clearest waters in Greece! The reason for having a line ashore is to keep your bow pointed right out into the ferry swell that will occur as the big fast ferries speed around the corner. There is no bar or taverna ashore here which makes it a nice quiet night onboard. It does mean you will have to cook onboard, but it is truly worth it when you finish dinner and look up at the stars.",
   },
@@ -68,7 +65,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
     description:
       "A great place to stop for lunch or spend the night. It has a sandy/weed bottom so you need to make sure your anchor is well dug in if you are free swinging in around 4- 8m of water. The best place, providing there is enough space is right in the harbour almost level with the break water on the left side. There are many great tavernas here. Generally the staff will come to their jetties to help you out of the dingy and are always willing to help in any way. There are also two small supermarkets here for provisions with a fairly good range.",
   },
@@ -86,7 +82,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
     description:
       "A another tranquil bay with a nice taverna ashore. Donâ€™t attempt to get into the harbour as it is very shallow. You can anchor to the West of the harbour with a line to shore or free swinging slightly deeper out in the bay.",
   },
@@ -104,7 +99,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
     description:
       "This bay is a bit more spacious and easier to anchor in but not as tranquil as the other two, however for an easy spot to stop for lunch on board it is perfect. Sand and weed makes it ok holding but make sure the anchor is well dug in. There are tavernas ashore but not quite as picturesque as the other two.",
   },
@@ -122,7 +116,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
     description:
       "There is a good taverna here on the South side of the bay and you can anchor in either the Southern or  the Northern ends of the bay in sand/mud. It is possible to take a long line to shore in the Northern side to keep your bow into the passing big ferry wake. There are jetties outside the tavernas but these can get uncomfortable in the ferry wake.",
   },
@@ -140,7 +133,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
     description:
       "Just to the South of Agni bay there is a small cove, under some large villas. In the cove is a very small church on the rocks which you can climb up to. To the left of the church, past the small pebble beach, in the corner of there cove is a great little cave. You can anchor in around 5 - 10m of water and swim over to the cave. Walk in through the left hand entrance to the cave into a small underground lagoon, then swim out through the underwater exit. Donâ€™t attempt this in rough sea, but is great fun on calm days.",
   },
@@ -158,7 +150,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
     description:
       "A natural harbour that has been turned into a large marina with extensive facilities. It is a popular place to hire yachts from. There is shore power, water and modern shower blocks. As well as many cafes, bars and restaurants.<br><br>When you leave the Marina on the 1st day you must stick to the channel inside the marks on the way out to avoid the shallow patches. The channel is clearly marked with two sets of port and starboard markers. Keep green to port, red to starboard on the way out! Before you return on the last day, there is good anchorage in Kontokoli Bay to anchor in just to the north of the harbour entrance. This is a great place to pack your bags and have that last swim, maximising your time on the water and keeping your refreshed before you fly.",
   },
@@ -176,7 +167,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
     description:
       "A new addition last year. This is located on the North side just after the commercial dock, directly under a church spire. Unfortunately the builders put a sewage drain inside the harbour so it does not smell great. However it is free and is a great place to quickly tie up stern to or side to, and go ashore for the afternoon shopping in town.",
   },
@@ -194,7 +184,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 14,
@@ -210,7 +199,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 15,
@@ -226,7 +214,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
     description:
       "Free swing in the harbour to the South of the castle. Mud/weed makes it fairly good holding but it can get bumpy with a Southerly wind. You can tie your dingy up under the walls of castle and get to town via the yacht club. You will get a bit of a bump in the night from the big ferries but only for a little while.",
   },
@@ -244,7 +231,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 17,
@@ -260,7 +246,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 18,
@@ -276,7 +261,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 20,
@@ -292,7 +276,6 @@ export default [
     water: 1,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 21,
@@ -308,7 +291,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 22,
@@ -324,7 +306,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 23,
@@ -340,7 +321,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 24,
@@ -356,7 +336,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 25,
@@ -372,7 +351,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 26,
@@ -388,7 +366,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 28,
@@ -404,7 +381,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 29,
@@ -420,7 +396,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 30,
@@ -436,7 +411,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 31,
@@ -452,7 +426,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 32,
@@ -468,7 +441,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 34,
@@ -484,7 +456,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 35,
@@ -500,7 +471,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 36,
@@ -516,7 +486,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 37,
@@ -532,7 +501,6 @@ export default [
     water: 1,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 38,
@@ -548,7 +516,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 39,
@@ -564,7 +531,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 40,
@@ -580,7 +546,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 41,
@@ -596,7 +561,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 42,
@@ -612,7 +576,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 43,
@@ -628,7 +591,6 @@ export default [
     water: 0,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 44,
@@ -644,7 +606,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 45,
@@ -660,7 +621,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 46,
@@ -676,7 +636,6 @@ export default [
     water: 1,
     power: 1,
     atm: 1,
-    distance: 0,
   },
   {
     id: 47,
@@ -692,7 +651,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 48,
@@ -708,7 +666,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 49,
@@ -724,7 +681,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 50,
@@ -740,7 +696,6 @@ export default [
     water: 1,
     power: 0,
     atm: 1,
-    distance: 0,
   },
   {
     id: 51,
@@ -756,7 +711,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 52,
@@ -772,7 +726,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 53,
@@ -788,7 +741,6 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
   {
     id: 54,
@@ -804,6 +756,5 @@ export default [
     water: 0,
     power: 0,
     atm: 0,
-    distance: 0,
   },
 ];
