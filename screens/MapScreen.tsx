@@ -35,7 +35,7 @@ export default function MapScreen() {
         ref={(c) => (_panel = c)}
         onBottomReached={() => dispatch(setActiveHarbour(null))}
       >
-        <HarbourDetail />
+        {activeHarbour && <HarbourDetail />}
       </SlidingUpPanel>
     </View>
   );
