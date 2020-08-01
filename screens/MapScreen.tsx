@@ -9,6 +9,7 @@ import { setActiveHarbour } from "../src/redux/harbours";
 import SlidingUpPanel from "rn-sliding-up-panel";
 
 import HarbourDetail from "./HarbourDetail";
+import Filters from "./Filters";
 
 export default function MapScreen() {
   const { harbours, activeHarbour } = useSelector((state) => state);
@@ -19,6 +20,7 @@ export default function MapScreen() {
   }, [activeHarbour]);
   return (
     <View style={styles.container}>
+      {/* <Filters /> */}
       <MapView style={styles.mapStyle} showsUserLocation={true}>
         {harbours.map((harbour) => (
           <Marker

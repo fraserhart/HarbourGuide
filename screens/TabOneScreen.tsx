@@ -11,7 +11,7 @@ export default function TabOneScreen() {
 
   return (
     <View style={styles.container}>
-      <Button title="Show panel" onPress={() => _panel.show()} />
+      <Text>Lorem Ipsum</Text>
     </View>
   );
 }
@@ -19,8 +19,8 @@ export default function TabOneScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
+
+    justifyContent: "flex-start",
   },
   title: {
     fontSize: 20,

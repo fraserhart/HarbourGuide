@@ -36,7 +36,7 @@ export default [
   },
   {
     id: 5,
-    name: "Samâ€™s Bay",
+    name: "Sam's Bay",
     lat: 39.7803,
     lng: 19.949241,
     mooring: 5,
