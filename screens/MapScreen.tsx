@@ -12,7 +12,7 @@ import HarbourDetail from "./HarbourDetail";
 import Filters from "./Filters";
 
 export default function MapScreen() {
-  const { harbours, activeHarbour } = useSelector((state) => state);
+  const { harbours, activeHarbour, filters } = useSelector((state) => state);
   const dispatch = useDispatch();
   let _panel;
   useEffect(() => {

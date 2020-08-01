@@ -1,10 +1,15 @@
 import { createStore, combineReducers } from "redux";
-import { harboursReducer, activeHarbourReducer } from "./harbours";
+import {
+  harboursReducer,
+  activeHarbourReducer,
+  filtersReducer,
+} from "./harbours";
 
 const store = createStore(
   combineReducers({
     harbours: harboursReducer,
     activeHarbour: activeHarbourReducer,
+    filters: filtersReducer,
   })
 );
 
