@@ -71,7 +71,7 @@ function MapTabNavigator() {
       <MapTabStack.Screen
         name="MapTabScreen"
         component={MapScreen}
-        options={{ headerTitle: "Map" }}
+        options={{ headerTitle: "xxx", headerShown: false }}
       />
     </MapTabStack.Navigator>
   );

@@ -22,7 +22,7 @@ export default function HarbourDetail() {
       let location = await Location.getCurrentPositionAsync({});
       setUserLocation(location);
     })();
-  });
+  }, []);
 
   return (
     <View style={styles.container}>
